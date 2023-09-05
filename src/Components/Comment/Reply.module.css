@@ -1,0 +1,253 @@
+@media(max-width:680px){
+    /*PHONE PHONE*/
+    .div{
+        display: none;
+        
+    }
+    .divp{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 10px;
+        background-color:  hsl(239, 57%, 95%);
+        font-weight: bold;
+       margin: 0px 20px;
+       padding: 10px 14px;
+      height:10px;
+    }
+    .mainp{
+        display:flex;
+        justify-content: space-between;
+
+    }
+    .sec1{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+         padding: 30px 20px;
+        background: white;
+        border-radius:10px;
+        width:80vw;
+        margin: 7px auto;
+        height: wrap;
+     
+      
+      }
+     
+    .p1{
+        color:hsl(238, 40%, 52%);
+       margin:0px 15px
+    
+    }
+    .p11{
+        color: hsl(239, 57%, 80%);
+        font-size: 17px;
+        cursor:pointer;
+    
+    }
+    
+    
+      .date{
+        font-size:12px;
+    }
+    .main{
+        display:flex;
+        justify-content: space-between;
+    }
+    .div2{
+display:none
+    }
+    .div2p{
+        color:hsl(238, 40%, 52%);
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        background:none;
+        border:none;
+        width:60px;
+        padding: auto 10px;
+        height:29px;
+        cursor: pointer;
+    }
+    button.div2p:hover{
+        color:hsl(238, 40%, 52%);
+        opacity:0.5;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        background:none;
+        border:none;
+        width:60px;
+        padding: auto 10px;
+        height:29px;
+    }
+    .div1{
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .article{
+        display:grid;
+      grid-template-rows: 30% 60%;
+      grid-row-gap:10px;
+    }
+    .img{
+    max-width:12%;
+    height:auto;
+    }
+    .img1{
+       width:10px;
+        height:10px;
+        margin-right: 3px;
+        }
+        img.img1:hover{
+        color:hsl(238, 40%, 72%) !important;
+            width:10px;
+             height:10px;
+             margin-right: 3px;
+             }
+        .p2{
+         font-size:13px;
+         margin-top: -6px;
+        }
+        .wrapperl{
+            display:none ;
+        }
+        .wrapperp{
+            display:block;
+          }
+}
+@media(min-width:681px){
+  .wrapperp{
+    display:none;
+  }
+  .wrapperl{
+    display:block ;
+  
+
+
+}
+    .div{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+    
+        justify-content: space-around;
+        border-radius: 10px;
+        background-color:  hsl(239, 57%, 95%);
+        font-weight: bold;
+       margin: 0px 20px;
+       padding: 10px 14px;
+      height:60px;
+    }
+    .sec1{
+        display:grid;
+     grid-template-columns: 10% 80%;    
+     grid-column-gap: 5%;
+         padding: 20px 20px;
+         padding-top: 10px;
+        padding-bottom: 30px;
+        background: white;
+        border-radius:10px;
+        height:65px;
+        width:460px;
+        margin: 9px 0px;
+     
+      
+      }
+    .p1{
+        color:hsl(238, 40%, 52%);
+       margin:-7px 0px
+    
+    }
+    .p11{
+        color: hsl(239, 57%, 80%);
+        font-size: 17px;
+        cursor:pointer;
+    
+    }
+    
+    
+      .date{
+        font-size:12px;
+    }
+    .main{
+        display:flex;
+        justify-content: space-between;
+    }
+    .div2{
+        color:hsl(238, 40%, 52%);
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        background:none;
+        border:none;
+        width:60px;
+        padding: auto 10px;
+        height:29px;
+        cursor: pointer;
+    }
+    button.div2:hover{
+        color:hsl(238, 40%, 52%);
+        opacity:0.5;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        background:none;
+        border:none;
+        width:60px;
+        padding: auto 10px;
+        height:29px;
+    }
+    .div1{
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .article{
+        display:grid;
+      grid-template-rows: 30% 60%;
+      grid-row-gap:10px;
+    }
+    .img{
+    max-width:12%;
+    height:auto;
+    }
+    .img1{
+       width:10px;
+        height:10px;
+        margin-right: 3px;
+        }
+        img.img1:hover{
+        color:hsl(238, 40%, 72%) !important;
+            width:10px;
+             height:10px;
+             margin-right: 3px;
+             }
+        .p2{
+         font-size:13px;
+         margin-top: -6px;
+        }
+        .mainp{
+            display:none;
+            
+        }
+}
+/*
+- Moderate blue: hsl(238, 40%, 52%)
+- Soft Red: hsl(358, 79%, 66%)
+- Light grayish blue: hsl(239, 57%, 85%)
+- Pale red: hsl(357, 100%, 86%)
+
+### Neutral
+
+- Dark blue: hsl(212, 24%, 26%)
+- Grayish Blue: hsl(211, 10%, 45%)
+- Light gray: hsl(223, 19%, 93%)
+- Very light gray: hsl(228, 33%, 97%)
+- White: hsl(0, 0%, 100%)
+
+- **Bonus**: If you're building a purely front-end project, use `localStorage` to save the current state in the browser that persists when the browser is refreshed.
+- **Bonus**: Instead of using the `createdAt` strings from the `data.json` file, try using timestamps and dynamically track the time since the comment or reply was posted.
+
+*/

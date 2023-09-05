@@ -1,0 +1,155 @@
+@media(max-width:680px){
+  /*PHONE PHONE*/
+  .sec{
+    display:flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+     padding: 30px 20px;
+    background: white;
+    border-radius:10px;
+    width:80vw !important;
+    margin: 7px auto;
+    height: wrap;
+  }
+  .sec1{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+     padding: 30px 20px;
+    background: white;
+    border-radius:10px;
+    width:80vw;
+    margin: 7px auto;
+    height: wrap;
+ 
+  
+  }
+  .p22{
+    font-size:10px;
+    color:hsl(211, 10%, 45%);
+    margin-right: 5px;
+  }
+  .btn{
+    background:hsl(238, 40%, 52%);
+    color:white;
+    border:none;
+    border-radius: 5px;
+    width:60px;
+    padding: auto 10px;
+    height:29px;
+    font-size: 10px;
+    text-transform: uppercase;
+    cursor:pointer;
+  }
+  button.btn:hover{
+      background:hsl(238, 40%, 72%);
+      color:white;
+      border:none;
+      border-radius: 5px;
+      width:60px;
+      padding: auto 10px;
+      height:29px;
+      font-size: 10px;
+      text-transform: uppercase;
+      cursor:pointer;
+  }
+  .img{
+    width:30px;
+  }
+.txt{
+    border:1px solid hsl(228, 33%, 92%);
+    width:100%;
+    border-radius: 3px;
+    cursor:pointer;
+}
+.divp{
+  display:none;
+}
+.divp1{
+  display:flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.mainp{
+  display:flex;
+  justify-content: space-between;
+}
+}
+
+@media(min-width:681px){
+  /*LAPTOP LAPTOP*/
+  .divp{
+    display:block;
+  }
+  .divp3{
+  display:none;
+  }
+  .sec{
+    display:flex;
+    justify-content: space-between;
+     padding: 30px 20px;
+    background: white;
+    border-radius:10px;
+    height:65px;
+    width:460px;
+    margin: 10px 0px;
+  }
+  .p22{
+    font-size:10px;
+    color:hsl(211, 10%, 45%);
+  }
+  .btn{
+    background:hsl(238, 40%, 52%);
+    color:white;
+    border:none;
+    border-radius: 5px;
+    width:60px;
+    padding: auto 10px;
+    height:29px;
+    font-size: 10px;
+    text-transform: uppercase;
+    cursor:pointer;
+  }
+  button.btn:hover{
+      background:hsl(238, 40%, 72%);
+      color:white;
+      border:none;
+      border-radius: 5px;
+      width:60px;
+      padding: auto 10px;
+      height:29px;
+      font-size: 10px;
+      text-transform: uppercase;
+      cursor:pointer;
+  }
+  .img{
+    width:30px;
+  }
+.txt{
+    border:1px solid hsl(228, 33%, 92%);
+    width:75%;
+    margin: 0px 5px;
+    border-radius: 3px;
+    cursor:pointer;
+}
+}
+  /*
+- Moderate blue: hsl(238, 40%, 52%)
+- Soft Red: hsl(358, 79%, 66%)
+- Light grayish blue: hsl(239, 57%, 85%)
+- Pale red: hsl(357, 100%, 86%)
+
+### Neutral
+
+- Dark blue: hsl(212, 24%, 26%)
+- Grayish Blue: hsl(211, 10%, 45%)
+- Light gray: hsl(223, 19%, 93%)
+- Very light gray: hsl(228, 33%, 97%)
+- White: hsl(0, 0%, 100%)
+
+- **Bonus**: If you're building a purely front-end project, use `localStorage` to save the current state in the browser that persists when the browser is refreshed.
+- **Bonus**: Instead of using the `createdAt` strings from the `data.json` file, try using timestamps and dynamically track the time since the comment or reply was posted.
+
+*/

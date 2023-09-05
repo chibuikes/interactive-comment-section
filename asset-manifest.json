@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/interactive-comment-section/static/css/main.d7a94b6e.css",
+    "main.js": "/interactive-comment-section/static/js/main.f776e49a.js",
+    "static/js/787.35f2028c.chunk.js": "/interactive-comment-section/static/js/787.35f2028c.chunk.js",
+    "index.html": "/interactive-comment-section/index.html",
+    "static/media/icon-edit.svg": "/interactive-comment-section/static/media/icon-edit.b0c7f9ebaec367bd3ae2539df8b55ff9.svg",
+    "static/media/icon-reply.svg": "/interactive-comment-section/static/media/icon-reply.bfb4589d45cd96abd45e3b82f7e7bbc6.svg",
+    "static/media/icon-delete.svg": "/interactive-comment-section/static/media/icon-delete.86cedbf2e37529f9c8f1f744254059b0.svg",
+    "main.d7a94b6e.css.map": "/interactive-comment-section/static/css/main.d7a94b6e.css.map",
+    "main.f776e49a.js.map": "/interactive-comment-section/static/js/main.f776e49a.js.map",
+    "787.35f2028c.chunk.js.map": "/interactive-comment-section/static/js/787.35f2028c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7a94b6e.css",
+    "static/js/main.f776e49a.js"
+  ]
+}
